@@ -1,0 +1,16 @@
+.card {
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+  backdrop-filter: blur( 4px );
+  width: fit-content;
+  border-radius: 10px;
+  display: grid;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  justify-items: center;
+  align-items: center;
+}
+
+.image {
+  margin: 1vw;
+  border-radius: 10px;
+}
