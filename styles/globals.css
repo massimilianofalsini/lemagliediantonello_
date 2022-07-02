@@ -1,9 +1,19 @@
+:root {
+  --fiorentina_purple: #482e92;
+  --fiorentina_gold: #a29160;
+  --fiorentina_red: #ec1c23;
+  --fiorentina_white: #ffffff;
+
+  --background: #c8c8c8;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--background);
 }
 
 a {
