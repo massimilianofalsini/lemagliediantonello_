@@ -1,22 +1,3 @@
 .main {
   min-height: 100vh;
 }
-
-.gradient {
-  height: 50vh;
-  width: 100vw;
-  position: absolute;
-  z-index: 0;
-  top: -10vh;
-  background: linear-gradient(45deg, var(--fiorentina_red) 0%, var(--fiorentina_purple) 35%, var(--fiorentina_purple) 50%, var(--fiorentina_purple) 65%, var(--fiorentina_gold) 100%);
-  transform: skewY(5deg);
-}
-
-.navbar {
-  width: 50vw;
-  position: relative;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  align-items: center;}
