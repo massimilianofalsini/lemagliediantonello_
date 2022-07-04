@@ -1,0 +1,12 @@
+.image {
+  position: relative;
+  border-radius: 10px;
+}
+
+.info_row {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}

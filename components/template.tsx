@@ -4,7 +4,13 @@ import Footer from '../components/footer'
 import Header from '../components/header'
 import styles from '../styles/Template.module.css'
 
-const Template: React.FC<{ title: string, meta_desctiption: string, children: ReactNode }> = (props) => {
+type Props = {
+  title: string, 
+  meta_desctiption: string, 
+  children: ReactNode
+}
+
+const Template: React.FC<Props> = (props) => {
   return (
     <>
       <Head>
