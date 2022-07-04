@@ -13,6 +13,34 @@ const Home: NextPage = () => {
         src_img_back='https://via.placeholder.com/108x192'
         alt_img_back='palceholder'
       />
+      <Info_row 
+        src_img_front='https://via.placeholder.com/108x192'
+        alt_img_front='palceholder'
+        description='description'
+        src_img_back='https://via.placeholder.com/108x192'
+        alt_img_back='palceholder'
+      />
+      <Info_row 
+        src_img_front='https://via.placeholder.com/108x192'
+        alt_img_front='palceholder'
+        description='description'
+        src_img_back='https://via.placeholder.com/108x192'
+        alt_img_back='palceholder'
+      />
+      <Info_row 
+        src_img_front='https://via.placeholder.com/108x192'
+        alt_img_front='palceholder'
+        description='description'
+        src_img_back='https://via.placeholder.com/108x192'
+        alt_img_back='palceholder'
+      />
+      <Info_row 
+        src_img_front='https://via.placeholder.com/108x192'
+        alt_img_front='palceholder'
+        description='description'
+        src_img_back='https://via.placeholder.com/108x192'
+        alt_img_back='palceholder'
+      />
     </Template>
   )
 }
