@@ -6,10 +6,10 @@ const Header: React.FC = () => {
     <div className={styles.gradient}/>
     <nav className={styles.navbar}>
       <Link href='/'>
-        <a>A</a>
+        <a>Homepage</a>
       </Link>
-      <Link href='/'>
-        <a>B</a>
+      <Link href='/anni_50'>
+        <a>Anni 50</a>
       </Link>
       <Link href='/'>
         <a>C</a>

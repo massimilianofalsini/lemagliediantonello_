@@ -1,14 +1,13 @@
 import type { NextPage } from 'next'
 import Info_row from '../components/info_row';
 import Template from '../components/template'
-// import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+const Anni_50: NextPage = () => {
   return (
     <Template 
-      title='Le maglie di Antonello | homepage' 
-      meta_desctiption='La collezione personale di maglie da calcio di Antonello Falsini'
-      headline='Homepage'
+      title='Le maglie di Antonello | Fiorentina anni 50' 
+      meta_desctiption='La collezione personale di maglie da calcio di Antonello Falsini della Fiorentina negli anni 50'
+      headline='Fiorentina anni 50'
     >
       <Info_row 
         src_img_front='https://via.placeholder.com/108x192'
@@ -49,4 +48,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Anni_50

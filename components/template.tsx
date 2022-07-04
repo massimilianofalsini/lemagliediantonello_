@@ -7,6 +7,7 @@ import styles from '../styles/Template.module.css'
 type Props = {
   title: string, 
   meta_desctiption: string, 
+  headline: string,
   children: ReactNode
 }
 
@@ -21,6 +22,7 @@ const Template: React.FC<Props> = (props) => {
 
       <main className={styles.main}>
         <Header />
+        <h2 style={{position: 'relative', margin: 'auto', textAlign: 'center'}}>{props.headline}</h2>
         {props.children}
       </main>
 
