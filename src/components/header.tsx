@@ -6,13 +6,16 @@ const Header: React.FC = () => {
     <div className={styles.gradient}/>
     <nav className={styles.navbar}>
       <Link href='/'>
-        <a>Homepage</a>
-      </Link>
-      <Link href='/anni_50'>
-        <a>Anni 50</a>
+        <a className={styles.text}>Home</a>
       </Link>
       <Link href='/'>
-        <a>C</a>
+        <a className={styles.text}>Fiorentina</a>
+      </Link>
+      <Link href='/'>
+        <a className={styles.text}>Avversare</a>
+      </Link>
+      <Link href='/'>
+        <a className={styles.text}>Altro</a>
       </Link>
     </nav> 
   </>

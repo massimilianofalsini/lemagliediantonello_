@@ -22,7 +22,7 @@ const Template: React.FC<Props> = (props) => {
 
       <main className={styles.main}>
         <Header />
-        <h2 style={{position: 'relative', margin: 'auto', textAlign: 'center'}}>{props.headline}</h2>
+        <h2 className={styles.text}>{props.headline}</h2>
         {props.children}
       </main>
 

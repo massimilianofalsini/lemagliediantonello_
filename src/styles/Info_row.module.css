@@ -1,6 +1,6 @@
 .image {
   border-width: 1px;
-  border-color: #F0F8FF;
+  border-color: var(--border-color);
   border-style: solid;
   position: relative;
   border-radius: 10px;
@@ -12,4 +12,10 @@
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
+}
+
+.text {
+  position: relative;
+  font-family: BlinkMacSystemFont;
+  font-weight: 200;
 }
