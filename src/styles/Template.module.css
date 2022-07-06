@@ -5,7 +5,7 @@
 .text {
   position: relative;
   width: fit-content;
-  margin: 3vh auto;
+  margin: auto;
   padding: 1vh 1vw;
   font-family: BlinkMacSystemFont;
   font-weight: 200;
