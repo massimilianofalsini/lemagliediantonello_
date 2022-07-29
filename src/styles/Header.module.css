@@ -1,9 +1,9 @@
 .gradient {
-  height: 50vh;
+  height: 100vh;
   width: 100vw;
   position: absolute;
   z-index: 0;
-  top: -10vh;
+  bottom: 60vh;
   background: linear-gradient(45deg, var(--fiorentina_red) 0%, var(--fiorentina_purple) 35%, var(--fiorentina_purple) 50%, var(--fiorentina_purple) 65%, var(--fiorentina_gold) 100%);
   transform: skewY(5deg);
 }
