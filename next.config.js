@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  i18n: {
-    locales: ['it'],
-    defaultLocale: 'it',
+  images: {
+    loader: 'akamai',
+    path: '/',
   },
   images: {
     domains: ['via.placeholder.com'],

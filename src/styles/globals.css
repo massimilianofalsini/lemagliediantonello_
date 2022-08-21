@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --fiorentina_purple: #482e92;
   --fiorentina_gold: #a29160;

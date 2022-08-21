@@ -13,7 +13,7 @@ const Info_row: React.FC<Props> = (props) => {
   return (
     <div className={styles.info_row}>
       <img className={styles.image} src={props.src_img_front} alt={props.alt_img_front} />
-      <h2 className={styles.text}>description</h2>
+      <h2 className={styles.text}>{props.description}</h2>
       <img className={styles.image} src={props.src_img_back} alt={props.alt_img_back} />
     </div>
   )
